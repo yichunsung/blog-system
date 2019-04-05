@@ -1,0 +1,46 @@
+{
+  "name": "blog-system",
+  "version": "0.1.0",
+  "description": "building a blog system by vue and express",
+  "main": "app.js",
+  "babel": {
+    "presets": [
+      "env",
+      "vue"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yichunsung/blog-system.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "Yichun Sung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yichunsung/blog-system/issues"
+  },
+  "homepage": "https://github.com/yichunsung/blog-system#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-vue": "^2.0.2",
+    "css-loader": "^1.0.1",
+    "file-loader": "^3.0.1",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
